@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+/* =======================HEADER=================== */
+
+.header {
+  display: flex;
+}
+
+.england {
+  margin-top: 45px;
+}
+
+/* =======================HEADER=================== */
