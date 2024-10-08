@@ -2,14 +2,77 @@ a {
   text-decoration: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: green;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 1180px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
 /* =======================HEADER=================== */
 
 .header {
   display: flex;
+  margin-top: 45px;
 }
 
-.england {
-  margin-top: 45px;
+.header__nav {
+  margin-left: 223px;
+  width: 360px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  background-color: #e4e6eb;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  font-size: 20px;
+}
+
+.icon:hover {
+  color: #0866ff;
+  background-color: #eaf4fe;
+}
+
+/* =======================STREAMLINE ENGLISH 1=================== */
+
+/* ========================01.1: HELLO */
+.lesson {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  font-family: Delius;
+  margin-top: 50px;
+  color: #000;
+}
+
+.play__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 40px;
+  height: 268px;
+  margin-top: 248px;
+  margin-left: -80px;
 }
 
 /* =======================HEADER=================== */
