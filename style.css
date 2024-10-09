@@ -64,7 +64,12 @@ body {
   color: #000;
 }
 
+.lesson01__1 {
+  position: relative;
+}
+
 .play__nav {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,4 +80,29 @@ body {
   margin-left: -80px;
 }
 
-/* =======================HEADER=================== */
+.text--and--image__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.image01__1 {
+  display: flex;
+  position: relative;
+  height: 764px;
+}
+
+.image1__01--1 {
+  margin-left: 40px;
+  width: 578px;
+  height: 512px;
+}
+.image2__01--1 {
+  position: absolute;
+  margin: 222px 0 0 529px;
+  width: 611px;
+  height: 542px;
+}
+
+/* =======================Hfcctc=================== */
