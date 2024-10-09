@@ -55,6 +55,16 @@ body {
 /* =======================STREAMLINE ENGLISH 1=================== */
 
 /* ========================01.1: HELLO */
+
+.main__container {
+  position: relative;
+}
+.logo {
+  position: fixed;
+  margin-top: 350px;
+  margin-left: 1200px;
+}
+
 .lesson {
   display: block;
   text-align: center;
@@ -62,6 +72,7 @@ body {
   font-family: Delius;
   margin-top: 50px;
   color: #000;
+  margin-bottom: 60px;
 }
 
 .lesson01__1 {
@@ -82,6 +93,7 @@ body {
 
 .text--and--image__nav {
   display: flex;
+  margin: 30px auto;
   justify-content: space-between;
   align-items: center;
   width: 200px;
@@ -94,7 +106,7 @@ body {
 }
 
 .image1__01--1 {
-  margin-left: 40px;
+  margin-left: 70px;
   width: 578px;
   height: 512px;
 }
