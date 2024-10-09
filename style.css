@@ -59,62 +59,11 @@ body {
 .main__container {
   position: relative;
 }
+
 .logo {
   position: fixed;
-  margin-top: 350px;
-  margin-left: 1220px;
-}
-
-.lesson {
-  display: block;
-  text-align: center;
-  font-size: 4rem;
-  font-family: Delius;
-  margin-top: 50px;
-  color: #000;
-  margin-bottom: 60px;
-}
-
-.lesson01__1 {
-  position: relative;
-}
-
-.play__nav {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 40px;
-  height: 268px;
-  margin-top: 248px;
-  margin-left: -80px;
-}
-
-.text--and--image__nav {
-  display: flex;
-  margin: 30px auto;
-  justify-content: space-between;
-  align-items: center;
-  width: 200px;
-}
-
-.image01__1 {
-  display: flex;
-  position: relative;
-  height: 764px;
-}
-
-.image1__01--1 {
-  margin-left: 70px;
-  width: 578px;
-  height: 512px;
-}
-.image2__01--1 {
-  position: absolute;
-  margin: 222px 0 0 529px;
-  width: 611px;
-  height: 542px;
+  margin-top: 400px;
+  margin-left: 1200px;
 }
 
 /* =======================Hfcctc=================== */
