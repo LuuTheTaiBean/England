@@ -4,11 +4,12 @@ a {
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
   font-size: 62.5%;
-  background-color: green;
+  background-color: #1ec9ff;
 }
 
 body {
@@ -45,6 +46,7 @@ body {
   height: 40px;
   border-radius: 999px;
   font-size: 20px;
+  color: #000;
 }
 
 .icon:hover {
@@ -66,4 +68,45 @@ body {
   margin-left: 1200px;
 }
 
+.lesson {
+  display: block;
+  text-align: center;
+  font-family: Delius;
+  font-size: 4rem;
+  color: #000;
+  padding: 20px;
+}
+
+.lesson__01--1 {
+  position: relative;
+  height: 806px;
+  /* background-color: red; */
+}
+
+.lesson__01--1--image1 {
+  margin-left: 178px;
+}
+
+.lesson__01--1--image2 {
+  position: absolute;
+  margin-top: 209px;
+  margin-left: -160px;
+}
+
+.lesson__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+audio {
+  width: 220px;
+  height: 40px;
+}
+
+.lesson__nav01--1 {
+  margin-top: 225px;
+}
 /* =======================Hfcctc=================== */
