@@ -62,9 +62,14 @@ body {
   position: relative;
 }
 
+.icon__folder--open {
+  position: fixed;
+  margin-top: 490px;
+  margin-left: 1230px;
+}
 .logo {
   position: fixed;
-  margin-top: 400px;
+  margin-top: 350px;
   margin-left: 1200px;
 }
 
@@ -97,7 +102,10 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 400px;
-  margin: 0 auto 10px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 390px;
+  margin-top: 490px;
 }
 
 audio {
