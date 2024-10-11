@@ -80,7 +80,6 @@ body {
 .lesson__01--1 {
   position: relative;
   height: 806px;
-  /* background-color: red; */
 }
 
 .lesson__01--1--image1 {
@@ -98,7 +97,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 audio {
@@ -106,7 +105,4 @@ audio {
   height: 40px;
 }
 
-.lesson__nav01--1 {
-  margin-top: 225px;
-}
 /* =======================Hfcctc=================== */
