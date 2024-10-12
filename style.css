@@ -54,6 +54,30 @@ body {
   background-color: #eaf4fe;
 }
 
+.search {
+  background-color: #fff;
+  width: 240px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  color: #00000074;
+}
+
+.nav__search {
+  margin: auto 0 auto auto;
+}
+.fa-magnifying-glass {
+  display: flex;
+}
+
+.streamline--english {
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
 /* =======================STREAMLINE ENGLISH 1=================== */
 
 /* ========================01.1: HELLO */
