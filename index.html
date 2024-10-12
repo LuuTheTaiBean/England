@@ -135,13 +135,15 @@
           </a>
         </div>
         <!-- SEARCH -->
-        <div class="nav__search">
-          <a href="" class="search">
-            <i class="fa-solid fa-magnifying-glass"
-              ><div class="streamline--english">Streamline English</div></i
-            >
-          </a>
-        </div>
+        <form class="search-form" action="/tim-kiem" method="GET">
+          <input
+            type="text"
+            name="query"
+            placeholder="Streamline English ..."
+            class="search-input"
+          />
+          <button type="submit" class="search-button">Search</button>
+        </form>
       </div>
     </header>
     <main>
@@ -233,6 +235,7 @@
         <div class="lesson__02--1">
           <a href="" class="lesson">03.1: What is it?</a>
         </div>
+        <!-- UNIT 04.1 -->
       </div>
     </main>
   </body>
