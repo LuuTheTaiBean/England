@@ -135,18 +135,18 @@
           </a>
         </div>
         <!-- SEARCH -->
-        <form class="search-form" action="/tim-kiem" method="GET">
+        <form class="search-form" id="searchForm">
           <input
             type="text"
-            name="query"
-            placeholder="Streamline English ..."
+            id="searchInput"
+            placeholder="Strealine English ... "
             class="search-input"
           />
           <button type="submit" class="search-button">Search</button>
         </form>
       </div>
     </header>
-    <main>
+    <section>
       <div class="container main__container">
         <a href=""
           ><img loading="lazy" src="./svg/Logo.svg" alt="" class="logo"
@@ -181,7 +181,7 @@
         </div>
         <!-- UNIT 01.1 -->
         <div class="lesson__01--1">
-          <a href="" class="lesson">01.1: Hello</a>
+          <h2 class="lesson" id="section1">01.1: Hello</h2>
           <img
             loading="lazy"
             src="./svg/01__1--Image1.svg"
@@ -197,7 +197,7 @@
         </div>
         <!-- UNIT 02.1 -->
         <div class="lesson__02--1">
-          <a href="" class="lesson">02.1: Excuse me</a>
+          <h2 class="lesson" id="section2">02.1: Excuse me</h2>
           <img
             loading="lazy"
             src="./svg/01__2--Image.svg"
@@ -233,10 +233,15 @@
         </div>
         <!-- UNIT 03.1 -->
         <div class="lesson__02--1">
-          <a href="" class="lesson">03.1: What is it?</a>
+          <h2 class="lesson" id="section2">03.1: What is it?</h2>
         </div>
         <!-- UNIT 04.1 -->
+        <div class="lesson__02--1">
+          <h2 class="lesson" id="section2">04.1: What is your name?</h2>
+        </div>
       </div>
-    </main>
+    </section>
+    <!-- JS -->
+    <script src="script.js"></script>
   </body>
 </html>

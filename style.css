@@ -60,11 +60,12 @@ b {
   font-weight: 900;
 }
 /* =======================SEARCH=================== */
+/* Thiết kế cho thanh tìm kiếm */
 .search-form {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: auto;
+  height: 40px;
 }
 
 .search-input {
@@ -72,11 +73,6 @@ b {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px 0 0 4px;
-  outline: none;
-}
-
-.search-input:focus {
-  border-color: #007bff;
 }
 
 .search-button {
@@ -90,6 +86,10 @@ b {
 
 .search-button:hover {
   background-color: #0056b3;
+}
+
+section {
+  padding: 20px;
 }
 
 /* =======================HEADER=================== */
