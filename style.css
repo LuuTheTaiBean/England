@@ -59,6 +59,31 @@ pre {
 b {
   font-weight: 900;
 }
+
+.image {
+  display: block;
+  margin: 0 auto;
+}
+
+.lesson {
+  display: block;
+  text-align: center;
+  font-family: Delius;
+  font-size: 4rem;
+  color: #000;
+  padding: 20px;
+}
+
+.lesson__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  margin-left: 390px;
+  margin-top: 490px;
+}
 /* =======================SEARCH=================== */
 /* Thiết kế cho thanh tìm kiếm */
 .search-form {
@@ -72,7 +97,7 @@ b {
   width: 200px;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
+  border-radius: 999px 0 0 999px;
 }
 
 .search-button {
@@ -80,7 +105,7 @@ b {
   border: none;
   background-color: #007bff;
   color: white;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 999px 999px 0;
   cursor: pointer;
 }
 
@@ -119,47 +144,10 @@ section {
 }
 
 /* ========================01.1: HELLO */
-
-.lesson {
-  display: block;
-  text-align: center;
-  font-family: Delius;
-  font-size: 4rem;
-  color: #000;
-  padding: 20px;
+.lesson__01--1--image {
+  width: 750px;
 }
-
-.lesson__01--1 {
-  position: relative;
-  height: 750px;
-}
-
-.lesson__01--1--image1 {
-  margin-left: 178px;
-}
-
-.lesson__01--1--image2 {
-  position: absolute;
-  margin-top: 209px;
-  margin-left: -160px;
-}
-
-.lesson__nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 400px;
-  position: fixed;
-  z-index: 1;
-  margin-left: 390px;
-  margin-top: 490px;
-}
-
 /* ========================02.1: EXCUSE ME */
-.lesson__02--1--image {
-  display: block;
-  margin: 0 auto;
-}
 
 .lesson02__1--text1 {
   margin-top: -120px;
@@ -173,4 +161,17 @@ section {
 
 .lesson02__1--text3 {
   margin-left: 640px;
+}
+/* ========================03.1: What is it? */
+.lesson__03--1--image {
+  width: 1000px;
+}
+/* ========================04.1: What is your name? */
+.lesson__04--1--image {
+  margin-left: 640px;
+  width: 350px;
+}
+
+.lesson04__1--text {
+  margin: -600px 0 102px 190px;
 }
