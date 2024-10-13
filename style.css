@@ -84,6 +84,10 @@ b {
   margin-left: 390px;
   margin-top: 490px;
 }
+
+h2:hover {
+  color: yellow;
+}
 /* =======================SEARCH=================== */
 /* Thiết kế cho thanh tìm kiếm */
 .search-form {
@@ -174,4 +178,25 @@ section {
 
 .lesson04__1--text {
   margin: -600px 0 102px 190px;
+}
+
+/* ========================05.1: I'm cold */
+.lesson__05--1--image {
+  width: 850px;
+}
+
+.lesson05__1--text1 {
+  margin: -510px 0 0 190px;
+}
+
+.lesson05__1--text2 {
+  margin: 80px 0 0 790px;
+}
+
+.lesson05__1--text3 {
+  margin: 80px 0 0 190px;
+}
+
+.lesson05__1--text4 {
+  margin: 90px 0 30px 790px;
 }
