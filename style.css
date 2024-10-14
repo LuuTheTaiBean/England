@@ -200,3 +200,13 @@ section {
 .lesson05__1--text4 {
   margin: 90px 0 30px 790px;
 }
+
+/* ========================06.1: A nice flat */
+.lesson__06--1--image {
+  width: 555px;
+  margin-left: 580px;
+}
+
+.lesson06__1--text {
+  margin: -482px 0 80px 140px;
+}
