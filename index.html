@@ -98,7 +98,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>England</title>
   </head>
-  <body style="height: 10000px">
+  <body>
     <!-- HEADER -->
     <header>
       <div class="container header">
@@ -144,61 +144,39 @@
           />
           <button type="submit" class="search-button">Search</button>
         </form>
-      </div>
-    </header>
-    <section>
-      <div class="container main__container">
+        <!-- LOGO -->
         <a href=""
           ><img loading="lazy" src="./svg/Logo.svg" alt="" class="logo"
         /></a>
-        <!-- FOLDER_OPEN -->
-        <a
-          href="https://drive.google.com/drive/folders/1IyjTYMCnRJMYQW4Mr5lBIkeexJ8zEcIV?usp=sharing"
-          class="icon icon__folder--open"
-        >
-          <i class="fa-solid fa-folder-open"></i>
-        </a>
-        <!-- NAV -->
-        <div class="nav lesson__nav">
-          <!-- TEXT -->
-          <a href="" class="icon">
-            <i class="fa-solid fa-text-slash"></i>
-          </a>
-          <!-- PRIVIOUS -->
-          <a href="" class="icon">
-            <i class="fa-solid fa-backward-step"></i>
-          </a>
-          <!-- AUDIO -->
-          <audio controls loop src="./Audio/01__1.mp3">01__1.mp3</audio>
-          <!-- NEXT -->
-          <a href="" class="icon">
-            <i class="fa-solid fa-forward-step"></i>
-          </a>
-          <!-- IMAGE -->
-          <a href="" class="icon">
-            <i class="fa-solid fa-image"></i>
-          </a>
-        </div>
-        <!-- UNIT 01.1 -->
-        <div class="lesson__01--1">
-          <h2 class="lesson" id="section1">01.1: Hello</h2>
-          <img
-            loading="lazy"
-            src="./svg/01__1--Image.svg"
-            alt=""
-            class="image lesson__01--1--image"
-          />
-        </div>
-        <!-- UNIT 02.1 -->
-        <div class="lesson__02--1">
-          <h2 class="lesson" id="section2">02.1: Excuse me</h2>
-          <img
-            loading="lazy"
-            src="./svg/02__1--Image.svg"
-            alt=""
-            class="image lesson__02--1--image"
-          />
-          <pre class="text lesson02__1--text1">
+      </div>
+    </header>
+    <!-- STREAMLINE ENGLISH 1 -->
+    <section>
+      <div class="carousel">
+        <div class="carousel-images">
+          <div class="carousel-item active">
+            <!-- UNIT 01.1 -->
+            <div class="lesson__01--1">
+              <h2 class="lesson" id="section1">01.1: Hello</h2>
+              <img
+                loading="lazy"
+                src="./svg/01__1--Image.svg"
+                alt=""
+                class="image lesson__01--1--image"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- UNIT 02.1 -->
+            <div class="lesson__02--1">
+              <h2 class="lesson" id="section2">02.1: Excuse me</h2>
+              <!-- <img
+                loading="lazy"
+                src="./svg/02__1--Image.svg"
+                alt=""
+                class="image lesson__02--1--image"
+              /> -->
+              <pre class="text lesson02__1--text1">
 <b>I</b> Excuse me!
 <b>J</b> Yes?
 <b>I</b> Are you English?
@@ -208,14 +186,14 @@
 <b>I</b> Oh, I'm English. Are you on holiday?
 <b>J</b> No, we aren't. We're businessmen.
           </pre>
-          <pre class="text lesson02__1--text2">
+              <pre class="text lesson02__1--text2">
 <b>J</b> Please, sit down...
 <b>I</b> Thank you.
 
 <b>J</b> Tea?
 <b>I</b> Yes, please.
           </pre>
-          <pre class="text lesson02__1--text3">
+              <pre class="text lesson02__1--text3">
 <b>J</b> Sugar?
 <b>I</b> No, thanks.
 
@@ -224,225 +202,23 @@
 <b>J</b> Are you a businessman?
 <b>I</b> No, I'm not. I'm a tourist.
           </pre>
-        </div>
-        <!-- UNIT 03.1 -->
-        <div class="lesson__03--1">
-          <h2 class="lesson" id="section3">03.1: What is it?</h2>
-          <img
-            loading="lazy"
-            src="./svg/03__1--Image.svg"
-            alt=""
-            class="image lesson__03--1--image"
-          />
-        </div>
-        <!-- UNIT 04.1 -->
-        <div class="lesson__04--1">
-          <h2 class="lesson" id="section4">04.1: What is your name?</h2>
-          <img
-            loading="lazy"
-            src="./svg/04__1--Image.svg"
-            alt=""
-            class="image lesson__04--1--image"
-          />
-          <pre class="text lesson04__1--text">
-<b>Mr Dean</b> Good evening.
-<b>Receptionist</b> Good evening, sir. What's your name, please?
-<b>Mr Dean</b> My name's Dean.
-<b>Receptionist</b> Ah, yes... Mr Dean. Room 15. Here's your key.
-<b>Mr Dean</b> Thank you.
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./svg/03__1--Image.svg" alt="Image 3" />
+          </div>
 
-<b>Porter</b> Is this your case?
-<b>Mr Dean</b> No, it isn't.
-<b>Porter</b> Oh, is that your case over there?
-<b>Mr Dean</b> Yes, it is.
+          <div class="carousel-item">
+            <img src="./svg/03__1--Image.svg" alt="Image 3" />
+          </div>
+        </div>
 
-<b>Mr Brown</b> Good evening.
-<b>Receptionist</b> Good evening. What are your names, please?
-<b>Mr Brown</b> Mr and Mrs Brown.
-<b>Receptionist</b> Ah, yes... here's your key.
-
-<b>Porter</b> Are there your case here?
-<b>Mr Brown</b> No, they aren't.
-<b>Porter</b> Oh, I'm sorry. Are those your cases over there?
-<b>Mr Brown</b> Yes, they are.
-
-<b>Mrs Brown</b> Is this our room?
-<b>Mr Brown</b> What's the number?
-<b>Mrs Brown</b> 14.
-<b>Mr Brown</b> Oh, no, it isn't. That's our room... number 13.
-            </pre>
-        </div>
-        <!-- UNIT 05.1 -->
-        <div class="lesson__05--1">
-          <h2 class="lesson" id="section5">05.1: I'm cold</h2>
-          <img
-            loading="lazy"
-            src="./svg/05__1--Image.svg"
-            alt=""
-            class="image lesson__05--1--image"
-          />
-          <pre class="text lesson05__1--text1">
-Big           Beautiful       Old
-Small       Ugly                Young
-          </pre>
-          <pre class="text lesson05__1--text2">
-Old       Rich    Cheap
-New     Poor   Expensive
-                      </pre
-          >
-          <pre class="text lesson05__1--text3">
-Tall         Short     Fat
-Short     Long      Thin
-          </pre>
-          <pre class="text lesson05__1--text4">
-Thick       Full              Weak
-Thin         Empty         Strong
-                      </pre
-          >
-        </div>
-        <!-- UNIT 06.1 -->
-        <div class="lesson__06--1">
-          <h2 class="lesson" id="section6">06.1: A nice flat</h2>
-          <img
-            loading="lazy"
-            src="./svg/06__1--Image.svg"
-            alt=""
-            class="image lesson__06--1--image"
-          />
-          <pre class="text lesson06__1--text">
-<b>Agent</b> This is a nice flat, Miss Wilkins. Here's a plan...
-<b>Miss Wilkins</b> Mmm...
-<b>Agent</b> There's a living-room. There's a kitchen, a bedroom,
-a bathroom, and there's a toilet.
-<b>Miss Wilkins</b> Is there a balcony?
-<b>Agent</b> No, there isn't.
-<b>Miss Wilkins</b> ... and a telephone?
-<b>Agent</b> No, there isn't a telephone.
-
-<b>Agent</b> Well here's the kitchen.
-<b>Miss Wilkins</b> Hmm... it's very small.
-<b>Agent</b> Yes, it isn't very large, but there's a cooker and a fridge.
-There are some cupboards under the sink.
-<b>Miss Wilkins</b> Are there any plates?
-<b>Agent</b> Yes, there are.
-<b>Miss Wilkins</b> Good. Are there any chairs in here?
-<b>Agent</b> No, there aren't, but there are some in the living-room.
-<b>Miss Wilkins</b> Hmmm. There aren't any glasses!
-<b>Agent</b> Yes, there are! They're in the cupboard.
-<b>Miss Wilkins</b> ... and... er.... where's the toilet?
-                      </pre>
-        </div>
-        <!-- UNIT 07.1 -->
-        <div class="lesson__07--1">
-          <h2 class="lesson" id="section7">07.1: Everyday Conversation</h2>
-          <img
-            loading="lazy"
-            src="./svg/07__1--Image.svg"
-            alt=""
-            class="image lesson__07--1--image"
-          />
-          <pre class="text lesson07__1--text1">
-<b>A</b> Excuse me.
-<b>B</b> Yes?
-<b>A</b> Is there a post office near here?
-<b>B</b> Yes, there is.
-<b>A</b> Is it far?
-<b>B</b> No, it isn't very far. First right, second left.
-<b>A</b> Thank you very much.
-<b>B</b> That's all right.
-          </pre>
-          <pre class="text lesson07__1--text2">
-<b>C</b> Mrs Connor, could you pass the salt please?
-<b>D</b> Certainly.
-<b>C</b> Thank you very much.
-<b>D</b> And the pepper?
-<b>C</b> No, thank you.                        
-          </pre>
-          <pre class="text lesson07__1--text3">
-<b>E</b> Good evening.
-<b>F</b> Good evening.
-<b>E</b> Half of bitter, please.
-<b>F</b> Here you are, sir.
-<b>E</b> Thank you very much. How much is that?
-<b>F</b> 15p.                       
-          </pre>
-          <pre class="text lesson07__1--text4">
-<b>G</b> Are you on the phone?
-<b>H</b> Yes, I am.
-<b>G</b> What's your number?
-<b>H</b> 23306                  
-                      </pre>
-        </div>
-        <!-- UNIT 08.1 -->
-        <div class="lesson__08--1">
-          <h2 class="lesson" id="section8">08.1: A family re-union</h2>
-          <img
-            loading="lazy"
-            src="./svg/08__1--Image.svg"
-            alt=""
-            class="image lesson__08--1--image"
-          />
-          <pre class="text lesson08__1--text">
-<b>Mrs Turner</b> Who's that? Who's that?
-<b>Tom</b> It's me ... Tom.
-<b>Mrs Turner</b> Tom?
-<b>Tom</b> Yes, Tom ... your grandson. from Canada!
-<b>Mrs Turner</b> Oh, Tom! Come in!
-<b>Tom</b> This is my wife, Mary
-<b>Mrs Turner</b> Oh, how do you do?
-<b>Tom</b>... and these are our children, Jimmy and Ethel.
-<b>Mrs Turner</b> Hello, Jimmy. Hello, Ethel. Well, this is a 
-nice surprise!
-
-Look at Mrs Turner. Her skirt's black. Her blouse is white.
-Look at Tom. His jacket's brown. His trousers are grey.
-Look at Mary. Her dress is pink. Her shoes are orange.
-Look at Jimmy. His shirt's red. His shorts are green.
-Look at Ethel. Her T-shirt's yellow. Her jeans are blue.
-                      </pre>
-        </div>
-        <!-- UNIT 09.1 -->
-        <div class="lesson__09--1">
-          <h2 class="lesson" id="section9">09.1: Whose is it?</h2>
-          <img
-            loading="lazy"
-            src="./svg/09__1--Image.svg"
-            alt=""
-            class="image lesson__09--1--image"
-          />
-          <pre class="text lesson09__1--text">
-<b>Richard</b> Hello, Jane.
-<b>Jane</b> Hello, Richard.
-<b>Richard</b> Phew! What's this?
-<b>Jane</b> It's a Cadillac.
-<b>Richard</b> Hmm. Is it your car?
-<b>Jane</b> Well, no... no, it isn't.
-<b>Richard</b> Whose car is it?
-<b>Jane</b> It's Mr Orson's car.
-<b>Richard</b> Mr Orson? Who's he?
-<b>Jane</b> He's my boss. He's a millionaire!
-                    </pre>
-        </div>
-        <!-- UNIT  -->
-        <div class="lesson__00--1">
-          <h2 class="lesson" id="section0">00.1:</h2>
-          <img
-            loading="lazy"
-            src="./svg/00__1--Image.svg"
-            alt=""
-            class="image lesson__00--1--image"
-          />
-        </div>
-        <!-- UNIT  -->
-        <div class="lesson__00--1">
-          <h2 class="lesson" id="section0">00.1:</h2>
-          <img
-            loading="lazy"
-            src="./svg/00__1--Image.svg"
-            alt=""
-            class="image lesson__00--1--image"
-          />
-        </div>
+        <button class="carousel-button prev" onclick="moveSlide(-1)">
+          &#10094;
+        </button>
+        <button class="carousel-button next" onclick="moveSlide(1)">
+          &#10095;
+        </button>
       </div>
     </section>
     <!-- JS -->

@@ -25,3 +25,27 @@ document
       alert("Không tìm thấy kết quả!");
     }
   });
+
+// script.js
+let currentIndex = 0;
+
+function showSlide(index) {
+  const items = document.querySelectorAll(".carousel-item");
+  if (index >= items.length) {
+    currentIndex = 0;
+  } else if (index < 0) {
+    currentIndex = items.length - 1;
+  } else {
+    currentIndex = index;
+  }
+
+  const carouselImages = document.querySelector(".carousel-images");
+  carouselImages.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+function moveSlide(direction) {
+  showSlide(currentIndex + direction);
+}
+
+// Hiển thị slide đầu tiên
+showSlide(currentIndex);

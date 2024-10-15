@@ -14,6 +14,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  height: 100vh;
 }
 
 .container {
@@ -41,8 +42,8 @@ body {
 
 .logo {
   position: fixed;
-  margin-top: 350px;
-  margin-left: 1200px;
+  margin-top: 500px;
+  margin-left: 20px;
 }
 
 audio {
@@ -88,6 +89,59 @@ b {
 h2:hover {
   color: yellow;
 }
+/* Trượt */
+.carousel {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  max-width: 1400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-button {
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #a6d3fa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 999px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-button:hover {
+  background-color: red;
+}
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
 /* =======================SEARCH=================== */
 /* Thiết kế cho thanh tìm kiếm */
 .search-form {
@@ -122,7 +176,6 @@ section {
 }
 
 /* =======================HEADER=================== */
-
 .header {
   display: flex;
   margin-top: 45px;
@@ -148,103 +201,7 @@ section {
 }
 
 /* ========================01.1: HELLO */
-.lesson__01--1--image {
-  width: 750px;
-}
-/* ========================02.1: EXCUSE ME */
-
-.lesson02__1--text1 {
-  margin-top: -120px;
-  margin-left: 50px;
-}
-
-.lesson02__1--text2 {
-  margin-top: -270px;
-  margin-left: 525px;
-}
-
-.lesson02__1--text3 {
-  margin-left: 640px;
-}
-/* ========================03.1: What is it? */
-.lesson__03--1--image {
-  width: 1000px;
-}
-/* ========================04.1: What is your name? */
-.lesson__04--1--image {
-  margin-left: 640px;
-  width: 350px;
-}
-
-.lesson04__1--text {
-  margin: -600px 0 102px 190px;
-}
-
-/* ========================05.1: I'm cold */
-.lesson__05--1--image {
-  width: 850px;
-}
-
-.lesson05__1--text1 {
-  margin: -510px 0 0 190px;
-}
-
-.lesson05__1--text2 {
-  margin: 80px 0 0 790px;
-}
-
-.lesson05__1--text3 {
-  margin: 80px 0 0 190px;
-}
-
-.lesson05__1--text4 {
-  margin: 90px 0 30px 790px;
-}
-
-/* ========================06.1: A nice flat */
-.lesson__06--1--image {
-  width: 555px;
-  margin-left: 580px;
-}
-
-.lesson06__1--text {
-  margin: -482px 0 80px 140px;
-}
-
-/* ========================07.1: Everyday Conversation */
-.lesson07__1--text1 {
-  margin-top: -560px;
-  margin-left: 120px;
-}
-
-.lesson07__1--text2 {
-  margin-top: -135px;
-  margin-left: 760px;
-}
-
-.lesson07__1--text3 {
-  margin-top: 257px;
-  margin-left: 120px;
-}
-
-.lesson07__1--text4 {
-  margin: -114px 0 35px 760px;
-}
-
-/* ========================08.1: A family re-union */
-.lesson__08--1--image {
-  margin-left: 620px;
-}
-
-.lesson08__1--text {
-  margin: -400px 0 75px 180px;
-}
-
-/* ========================09.1: Whose is it? */
-.lesson__09--1--image {
-  margin-left: 490px;
-}
-
-.lesson09__1--text {
-  margin: -355px 0 144px 180px;
+.lesson__01--1 {
+  max-width: 690px;
+  margin: 0 auto;
 }
