@@ -79,7 +79,11 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: -560px 10px 0 auto;
+  margin: 0 10px 0 auto;
+}
+
+.group {
+  display: flex;
 }
 
 h2:hover {
@@ -193,26 +197,46 @@ section {
 
 /* ========================01.1: Hello */
 .lesson__01--1--image {
-  max-width: 680px;
+  max-width: 580px;
+  margin-left: 500px;
 }
+
+.lesson01__1--text1 {
+  margin-left: 260px;
+  margin-top: -450px;
+}
+
+.lesson01__1--text2 {
+  margin-left: 350px;
+  margin-top: 95px;
+}
+
 /* ========================02.1: Excuse me */
 .lesson__02--1--image {
-  max-width: 820px;
+  margin-left: 550px;
+  max-width: 420px;
 }
 
 .lesson02__1--text1 {
-  margin-left: 150px;
+  margin-left: 200px;
+  margin-top: -486px;
 }
 
-.lesson02__1--text2 {
-  margin-left: 560px;
-  margin-top: -288px;
-}
-
-.lesson02__1--text3 {
-  margin-left: 700px;
-}
 /* ========================02.1: What is it? */
 .lesson__03--1--image {
   max-width: 930px;
+}
+/* ========================04.1: What is your name? */
+.lesson__04--1--image {
+  max-width: 320px;
+  margin-left: 663px;
+}
+
+.lesson04__1--text {
+  margin-top: -545px;
+  margin-left: 220px;
+}
+/* ========================05.1: I'm cold */
+.lesson__05--1--image {
+  max-width: 800px;
 }
