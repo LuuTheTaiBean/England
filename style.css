@@ -42,8 +42,12 @@ body {
 
 .logo {
   position: fixed;
-  margin-top: 500px;
-  margin-left: 20px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.england {
+  width: 130px;
 }
 
 audio {
@@ -279,4 +283,16 @@ section {
   margin-top: -450px;
   margin-left: 170px;
   max-width: 280px;
+}
+
+/* ========================08.1: A family re-union */
+.lesson__08--1--image {
+  max-width: 400px;
+  margin-left: 600px;
+}
+
+.lesson08__1--text {
+  margin-top: -400px;
+  margin-left: 100px;
+  max-width: 400px;
 }
