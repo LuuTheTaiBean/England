@@ -102,7 +102,7 @@ h2 {
 .carousel {
   position: relative;
   width: 80%;
-  max-width: 1400px;
+  max-width: 1100px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -206,16 +206,16 @@ section {
 /* ========================01.1: Hello */
 .lesson__01--1--image {
   max-width: 580px;
-  margin-left: 500px;
+  margin-left: 420px;
 }
 
 .lesson01__1--text1 {
-  margin-left: 200px;
+  margin-left: 150px;
   margin-top: -450px;
 }
 
 .lesson01__1--text2 {
-  margin-left: 330px;
+  margin-left: 200px;
   margin-top: 95px;
 }
 
@@ -253,7 +253,7 @@ section {
 
 /* ========================06.1: A nice flat */
 .lesson__06--1--image {
-  max-width: 500px;
+  max-width: 450px;
   margin-left: 600px;
 }
 
@@ -261,4 +261,22 @@ section {
   margin-top: -450px;
   margin-left: 100px;
   max-width: 500px;
+}
+
+/* ========================07.1: Everyday Conversation */
+.lesson__07--1--image {
+  margin-top: 90px;
+  max-width: 700px;
+}
+
+.lesson07__1--text1 {
+  margin-top: -570px;
+  margin-left: 750px;
+  max-width: 250px;
+}
+
+.lesson07__1--text2 {
+  margin-top: -450px;
+  margin-left: 170px;
+  max-width: 280px;
 }
