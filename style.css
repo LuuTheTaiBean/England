@@ -51,7 +51,7 @@ audio {
   height: 40px;
 }
 
-pre {
+.text {
   display: block;
   font-family: Delius;
   line-height: 1.2;
@@ -75,21 +75,29 @@ b {
 }
 
 .lesson__nav {
+  position: absolute;
   width: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10px 0 auto;
+  margin-top: 80px;
+  margin-left: 10px;
 }
 
 .group {
   display: flex;
+  position: relative;
 }
 
 h2:hover {
   color: yellow;
 }
 
+h2 {
+  display: block;
+  width: 1200px;
+  text-align: center;
+}
 /* Trượt */
 .carousel {
   position: relative;
@@ -121,7 +129,7 @@ h2:hover {
   font-size: 2rem;
   width: 50px;
   height: 50px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
@@ -139,11 +147,11 @@ h2:hover {
 }
 
 .prev {
-  left: 10px;
+  left: 100px;
 }
 
 .next {
-  right: 10px;
+  right: 100px;
 }
 
 /* =======================SEARCH=================== */
@@ -202,12 +210,12 @@ section {
 }
 
 .lesson01__1--text1 {
-  margin-left: 260px;
+  margin-left: 200px;
   margin-top: -450px;
 }
 
 .lesson01__1--text2 {
-  margin-left: 350px;
+  margin-left: 330px;
   margin-top: 95px;
 }
 
@@ -220,6 +228,7 @@ section {
 .lesson02__1--text1 {
   margin-left: 200px;
   margin-top: -486px;
+  max-width: 335px;
 }
 
 /* ========================02.1: What is it? */
@@ -233,8 +242,9 @@ section {
 }
 
 .lesson04__1--text {
-  margin-top: -545px;
+  margin-top: -530px;
   margin-left: 220px;
+  max-width: 435px;
 }
 /* ========================05.1: I'm cold */
 .lesson__05--1--image {
