@@ -63,7 +63,7 @@ b {
 
 .image {
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .lesson {
@@ -249,4 +249,16 @@ section {
 /* ========================05.1: I'm cold */
 .lesson__05--1--image {
   max-width: 800px;
+}
+
+/* ========================06.1: A nice flat */
+.lesson__06--1--image {
+  max-width: 500px;
+  margin-left: 600px;
+}
+
+.lesson06__1--text {
+  margin-top: -450px;
+  margin-left: 100px;
+  max-width: 500px;
 }
