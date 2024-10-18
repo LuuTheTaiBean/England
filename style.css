@@ -418,3 +418,15 @@ section {
   margin-left: 200px;
   max-width: 390px;
 }
+
+/* ========================45.1: Yes, dear! */
+.lesson__45--1--image {
+  max-width: 400px;
+  margin-left: 600px;
+}
+
+.lesson45__1--text {
+  margin-top: -640px;
+  margin-left: 130px;
+  max-width: 450px;
+}
