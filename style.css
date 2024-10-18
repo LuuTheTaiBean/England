@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+i {
+  font-style: italic;
+}
+
 * {
   box-sizing: border-box;
   user-select: none;
@@ -344,7 +348,6 @@ section {
 }
 
 /* ========================17.1: At the customs */
-
 .lesson__17--1--image {
   margin-left: 650px;
   max-width: 300px;
@@ -354,4 +357,28 @@ section {
   margin-top: -520px;
   margin-left: 200px;
   max-width: 450px;
+}
+
+/* ========================25.1: At the cinema */
+.lesson__25--1--image {
+  max-width: 900px;
+  margin-top: 60px;
+}
+
+.lesson25__1--text1 {
+  max-width: 450px;
+  margin-top: -710px;
+  margin-left: 200px;
+}
+
+.lesson25__1--text2 {
+  max-width: 450px;
+  margin-top: 140px;
+  margin-left: 500px;
+}
+
+.lesson25__1--text3 {
+  max-width: 450px;
+  margin-top: 180px;
+  margin-left: 200px;
 }
