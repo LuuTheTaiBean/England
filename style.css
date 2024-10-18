@@ -296,3 +296,26 @@ section {
   margin-left: 100px;
   max-width: 400px;
 }
+/* ========================09.1 Whose is it? */
+.lesson__09--1--image {
+  max-width: 500px;
+  margin-left: 500px;
+}
+
+.lesson09__1--text {
+  margin-top: -300px;
+  margin-left: 150px;
+  max-width: 300px;
+}
+
+/* ========================13.1: Elton Kash */
+.lesson__13--1--image {
+  max-width: 500px;
+  margin-left: 550px;
+}
+
+.lesson13__1--text {
+  margin-top: -630px;
+  margin-left: 150px;
+  max-width: 390px;
+}
