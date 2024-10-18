@@ -111,6 +111,7 @@ h2 {
   position: relative;
   width: 80%;
   max-width: 1100px;
+  height: 950px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -286,7 +287,7 @@ section {
 .lesson07__1--text2 {
   margin-top: -450px;
   margin-left: 170px;
-  max-width: 280px;
+  max-width: 250px;
 }
 
 /* ========================08.1: A family re-union */
@@ -381,4 +382,39 @@ section {
   max-width: 450px;
   margin-top: 180px;
   margin-left: 200px;
+}
+/* ========================29.1: Computer dating */
+.lesson__29--1--image {
+  max-width: 400px;
+  margin-left: 600px;
+}
+
+.lesson29__1--text {
+  margin-top: -365px;
+  margin-left: 200px;
+  max-width: 390px;
+}
+
+/* ========================41.1: Where were you yesterday? */
+.lesson__41--1--image {
+  max-width: 400px;
+  margin-left: 600px;
+}
+
+.lesson41__1--text {
+  margin-top: -495px;
+  margin-left: 200px;
+  max-width: 390px;
+}
+
+/* ========================44.1: Return from Space */
+.lesson__44--1--image {
+  max-width: 400px;
+  margin-left: 600px;
+}
+
+.lesson44__1--text {
+  margin-top: -495px;
+  margin-left: 200px;
+  max-width: 390px;
 }
