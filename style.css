@@ -156,11 +156,11 @@ h2 {
 }
 
 .prev {
-  left: 100px;
+  left: 50px;
 }
 
 .next {
-  right: 100px;
+  right: 50px;
 }
 
 /* =======================SEARCH=================== */
@@ -492,5 +492,38 @@ section {
 .lesson56__1--text2 {
   margin-top: -267px;
   margin-left: 500px;
+  max-width: 400px;
+}
+
+/* ========================64.1: Town and Country */
+
+.lesson__64--1--image {
+  max-width: 700px;
+  margin-top: 60px;
+}
+
+.lesson64__1--text1 {
+  margin-top: -29px;
+  margin-left: 200px;
+  max-width: 330px;
+}
+
+.lesson64__1--text2 {
+  margin-top: -287px;
+  margin-left: 570px;
+  max-width: 330px;
+}
+
+/* ========================77.1: The election result */
+
+.lesson__77--1--image {
+  max-width: 350px;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.lesson77__1--text {
+  margin-left: 550px;
+  margin-top: -460px;
   max-width: 400px;
 }
