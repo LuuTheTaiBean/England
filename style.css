@@ -111,7 +111,7 @@ h2 {
   position: relative;
   width: 80%;
   max-width: 1100px;
-  height: 1100px;
+  /* height: 1100px; */
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -163,6 +163,26 @@ h2 {
   right: 50px;
 }
 
+/* Tạo bảng */
+#whiteboard {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  overflow-y: auto;
+  white-space: pre-wrap; /* Đảm bảo xuống dòng đúng */
+  outline: none; /* Loại bỏ viền khi nhấp vào */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
 /* =======================SEARCH=================== */
 /* Thiết kế cho thanh tìm kiếm */
 .search-form {
@@ -224,8 +244,7 @@ section {
 }
 
 .lesson01__1--text2 {
-  margin-left: 200px;
-  margin-top: 95px;
+  margin: 95px 0 60px 200px;
 }
 
 /* ========================02.1: Excuse me */
@@ -263,13 +282,13 @@ section {
 /* ========================06.1: A nice flat */
 .lesson__06--1--image {
   max-width: 450px;
-  margin-left: 600px;
+  margin-left: 500px;
 }
 
 .lesson06__1--text {
-  margin-top: -450px;
+  margin-top: -500px;
   margin-left: 100px;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 /* ========================07.1: Everyday Conversation */
@@ -312,7 +331,16 @@ section {
   margin-left: 150px;
   max-width: 300px;
 }
+/* ========================10.1: Is there any wine in the bottle? */
+.lesson__10--1--image {
+  max-width: 300px;
+  margin-left: 600px;
+}
 
+.lesson10__1--text1 {
+  margin-top: -690px;
+  margin-left: 300px;
+}
 /* ========================13.1: Elton Kash */
 .lesson__13--1--image {
   max-width: 500px;

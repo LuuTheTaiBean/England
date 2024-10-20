@@ -49,3 +49,8 @@ function moveSlide(direction) {
 
 // Hiển thị slide đầu tiên
 showSlide(currentIndex);
+
+// Xóa nội dung trong bảng trắng
+document.getElementById("clear").addEventListener("click", () => {
+  document.getElementById("whiteboard").innerHTML = "";
+});
