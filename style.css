@@ -530,6 +530,46 @@ section {
   margin-left: 100px;
   margin-top: 125px;
 }
+/* ========================36.1: A Questionnaire */
+.lesson__36--1--image {
+  max-width: 500px;
+  margin-left: 500px;
+  margin-top: 60px;
+}
+
+.lesson36__1--text1 {
+  max-width: 380px;
+  margin-left: 100px;
+  margin-top: -475px;
+}
+
+.lesson36__1--text2 {
+  margin-top: 25px;
+  margin-left: 320px;
+}
+
+/* ========================37.1: What does he do every day? */
+.lesson__37--1--image {
+  max-width: 300px;
+  margin-left: 550px;
+}
+
+.lesson37__1--text {
+  max-width: 380px;
+  margin-left: 120px;
+  margin-top: -475px;
+}
+/* ========================38.1: Well or badly? */
+.lesson__38--1--image {
+  max-width: 350px;
+  margin-left: 550px;
+}
+
+.lesson38__1--text {
+  max-width: 330px;
+  margin-left: 120px;
+  margin-top: -560px;
+}
 /* ========================41.1: Where were you yesterday? */
 .lesson__41--1--image {
   max-width: 400px;
