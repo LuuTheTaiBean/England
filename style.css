@@ -200,6 +200,8 @@ button {
 }
 
 .search-button {
+  margin-top: 0px;
+  height: 40px;
   padding: 10px 20px;
   border: none;
   background-color: #007bff;
@@ -411,6 +413,29 @@ section {
   margin-top: 180px;
   margin-left: 200px;
 }
+/* ========================28.1: An English Wedding */
+.lesson__28--1--image {
+  max-width: 450px;
+  margin-top: 60px;
+}
+
+.lesson28__1--text1 {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.lesson28__1--text2 {
+  max-width: 300px;
+  margin-left: 400px;
+  margin-top: -156px;
+}
+
+.lesson28__1--text3 {
+  max-width: 300px;
+  margin-left: 750px;
+  margin-top: -156px;
+}
 /* ========================29.1: Computer dating */
 .lesson__29--1--image {
   max-width: 400px;
@@ -422,7 +447,18 @@ section {
   margin-left: 200px;
   max-width: 390px;
 }
+/* ========================32.1: An interview */
+.lesson__32--1--image {
+  max-width: 500px;
+  margin-left: 550px;
+  margin-top: 80px;
+}
 
+.lesson32__1--text {
+  max-width: 440px;
+  margin-left: 100px;
+  margin-top: -520px;
+}
 /* ========================41.1: Where were you yesterday? */
 .lesson__41--1--image {
   max-width: 400px;
