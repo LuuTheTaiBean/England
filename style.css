@@ -390,6 +390,27 @@ section {
   max-width: 450px;
 }
 
+/* ========================21.1: What are they doing? */
+.lesson__21--1--image {
+  margin-left: 600px;
+  max-width: 300px;
+}
+.lesson21__1--text {
+  margin-top: -270px;
+  margin-left: 300px;
+  max-width: 300px;
+}
+/* ========================22.1: Can you help me? */
+.lesson__22--1--image {
+  max-width: 450px;
+  margin-left: 550px;
+}
+
+.lesson22__1--text {
+  margin-top: -460px;
+  margin-left: 150px;
+  max-width: 400px;
+}
 /* ========================25.1: At the cinema */
 .lesson__25--1--image {
   max-width: 900px;
@@ -412,6 +433,28 @@ section {
   max-width: 450px;
   margin-top: 180px;
   margin-left: 200px;
+}
+/* ========================26.1: What's on television tonight? */
+.lesson__26--1--image {
+  max-width: 450px;
+  margin-left: 550px;
+}
+
+.lesson26__1--text {
+  margin-top: -440px;
+  margin-left: 150px;
+  max-width: 400px;
+}
+/* ========================27.1: In prison */
+.lesson__27--1--image {
+  max-width: 350px;
+  margin-left: 550px;
+}
+
+.lesson27__1--text {
+  margin-top: -550px;
+  margin-left: 150px;
+  max-width: 350px;
 }
 /* ========================28.1: An English Wedding */
 .lesson__28--1--image {
@@ -458,6 +501,18 @@ section {
   max-width: 440px;
   margin-left: 100px;
   margin-top: -520px;
+}
+
+/* ========================33.1: Every day */
+.lesson__33--1--image {
+  max-width: 500px;
+  margin-left: 500px;
+}
+
+.lesson33__1--text {
+  max-width: 300px;
+  margin-left: 200px;
+  margin-top: -440px;
 }
 /* ========================41.1: Where were you yesterday? */
 .lesson__41--1--image {
