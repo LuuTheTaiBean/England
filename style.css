@@ -111,7 +111,7 @@ h2 {
   position: relative;
   width: 80%;
   max-width: 1100px;
-  /* height: 1100px; */
+  height: 1100px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -513,6 +513,22 @@ section {
   max-width: 300px;
   margin-left: 200px;
   margin-top: -440px;
+}
+/* ========================35.1: Never on a Sunday */
+.lesson__35--1--image {
+  max-width: 400px;
+  margin-left: 600px;
+}
+
+.lesson35__1--text1 {
+  max-width: 400px;
+  margin-left: 100px;
+  margin-top: -440px;
+}
+
+.lesson35__1--text2 {
+  margin-left: 100px;
+  margin-top: 125px;
 }
 /* ========================41.1: Where were you yesterday? */
 .lesson__41--1--image {
