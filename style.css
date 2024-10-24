@@ -267,12 +267,13 @@ section {
 }
 /* ========================04.1: What is your name? */
 .lesson__04--1--image {
+  margin-top: 80px;
   max-width: 320px;
   margin-left: 663px;
 }
 
 .lesson04__1--text {
-  margin-top: -530px;
+  margin-top: -470px;
   margin-left: 220px;
   max-width: 435px;
 }
@@ -698,6 +699,19 @@ section {
   margin-top: -287px;
   margin-left: 570px;
   max-width: 330px;
+}
+
+/* ========================69.1: Town and Country */
+.lesson__69--1--image {
+  max-width: 200px;
+  margin-top: 60px;
+  margin-left: 700px;
+}
+
+.lesson69__1--text {
+  margin-top: -845px;
+  margin-left: 150px;
+  max-width: 550px;
 }
 
 /* ========================77.1: The election result */
