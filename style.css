@@ -344,6 +344,18 @@ section {
   margin-top: -690px;
   margin-left: 300px;
 }
+/* ========================11.1: An English Restaurant */
+.lesson__11--1--image {
+  max-width: 400px;
+  margin-top: 80px;
+  margin-left: 600px;
+}
+
+.lesson11__1--text {
+  margin-top: -380px;
+  margin-left: 200px;
+  max-width: 350px;
+}
 /* ========================13.1: Elton Kash */
 .lesson__13--1--image {
   max-width: 500px;
