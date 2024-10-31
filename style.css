@@ -675,6 +675,17 @@ section {
   max-width: 350px;
 }
 
+/* ========================53.1: Howard Hughes 1905-1976 Biography of a Billionaire */
+.lesson__53--1--image {
+  max-width: 900px;
+  margin-top: 60px;
+}
+
+.lesson53__1--text {
+  margin-top: -765px;
+  max-width: 400px;
+  margin-left: 350px;
+}
 /* ========================56.1: An investigation */
 .lesson__56--1--image {
   max-width: 700px;
@@ -713,6 +724,18 @@ section {
   max-width: 330px;
 }
 
+/* ========================65.1: Europa Tours */
+.lesson__65--1--image {
+  max-width: 400px;
+  margin-top: 60px;
+  margin-left: 550px;
+}
+
+.lesson65__1--text {
+  margin-top: -350px;
+  margin-left: 100px;
+  max-width: 350px;
+}
 /* ========================69.1: Town and Country */
 .lesson__69--1--image {
   max-width: 200px;
@@ -726,6 +749,35 @@ section {
   max-width: 550px;
 }
 
+/* ========================75.1: Four lives */
+.lesson__75--1--image {
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+.lesson75__1--text1 {
+  max-width: 800px;
+  margin-top: -340px;
+  margin-left: 150px;
+}
+
+.lesson75__1--text2 {
+  margin-left: 150px;
+  max-width: 250px;
+  margin-top: 272px;
+}
+
+.lesson75__1--text3 {
+  margin-left: 430px;
+  max-width: 250px;
+  margin-top: -153px;
+}
+
+.lesson75__1--text4 {
+  max-width: 250px;
+  margin-top: -135px;
+  margin-left: 710px;
+}
 /* ========================77.1: The election result */
 
 .lesson__77--1--image {
